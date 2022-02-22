@@ -1,0 +1,116 @@
+body {
+  margin: 0px;
+  background-color: gainsboro;
+}
+
+.top {
+  margin: 0px;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+  background-color: #111;
+}
+
+.top h1 {
+  color: white;
+}
+
+.logo {
+  width: 10vw;
+  height: 10vh;
+  padding: 0px;
+  margin: 0px;
+}
+
+.logo img {
+  width:100%;
+  height:auto; 
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header h1 {
+  font-size: 1.4rem;
+  padding: 20px;
+}
+
+.nav {
+  background-color: #111;
+}
+
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.nav li {
+  float: left;
+}
+
+.nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav li a:hover {
+  background-color: #666;
+}
+
+.main {
+  width: 100vw;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+}
+
+.content {
+  width: 80vw;
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+}
+
+.images {
+  width: 40vw;
+}
+
+.copy {
+  width: 40vw;
+  padding: 20px;
+}
+
+.images img {
+  width: 350px;
+  padding: 20px;
+}
+
+.ad {
+  width: 20vw;
+  display: flex;
+  flex-grow: 1;
+}
+
+.ad img {
+  width: 100%;
+}
+
+.footer {
+  width: 100vw;
+  background-color: black;
+}
+
+.footer h2 {
+  padding: 20px;
+  color: white;
+  margin: 0px;
+}
